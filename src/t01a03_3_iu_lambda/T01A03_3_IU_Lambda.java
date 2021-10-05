@@ -123,7 +123,7 @@ public class T01A03_3_IU_Lambda extends Application {
             if(!Character.isDigit(e.getCharacter().charAt(0)) && !(e.getCharacter().charAt(0) == '.'))
             {
                 root.getChildren().remove(error);
-                error.setText("\"No puede introducir nada que no sean digitos o '.'\"");
+                error.setText("No puede introducir nada que no sean digitos o '.'");
                 root.add(error, 0, 6);
                 root.setColumnSpan(error, 2);
                 error.setStyle("-fx-text-fill: red;");
